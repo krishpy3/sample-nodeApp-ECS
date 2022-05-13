@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-	    res.send('Hello Universe from a Node.js app!')
+	    res.send('Hello my Universe from a Node.js app!')
 })
 
 app.listen(3000,'0.0.0.0', () => {
